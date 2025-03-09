@@ -1,0 +1,101 @@
+body {
+    background: linear-gradient(#6eb9f5, #ebf5fd);
+}
+
+#imagen {
+    position: relative;
+    top: 5vw;
+    width: 80%;
+    max-width: 300px;
+}
+
+#datoss {
+ 
+    font-size: 1.2rem;
+    color: rgb(68, 67, 67);
+    font-family: 'Oxanium', cursive;
+}
+#datoss p{
+    position: relative;
+    top: -26vw;
+
+}
+#imagenn {
+    position: relative;
+    top: -27vw;
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    position: relative;
+    top: -3vw;
+    font-size: 1rem;
+    padding: 10px 20px;
+    box-shadow: -2px 3px 0 #222, -4px 6px #000;
+    border-radius: 5px;
+}
+#idbusqueda{
+    position: relative;
+    box-shadow: -2px 3px 0 #222, -4px 6px #000;
+
+    top: -12vw;
+    
+}
+
+.btn:active {
+    box-shadow: inset -4px 4px 0 #222;
+}
+
+@media (max-width: 700px) {
+    body {
+        background: linear-gradient(#6eb9f5, #ebf5fd);
+    }
+    
+    #imagen {
+        position: relative;
+        top: 5vw;
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    #datoss {
+     
+        font-size: 1.5rem;
+        color: rgb(68, 67, 67);
+        font-family: 'Oxanium', cursive;
+    }
+    #datoss p{
+        position: relative;
+        top: -115vw;
+    
+    }
+    #imagenn {
+        position: relative;
+        top: -120vw;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .btn {
+        position: relative;
+        top: -30vw;
+        width: 25vw;
+        height: 12vw;
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        box-shadow: -2px 3px 0 #222, -4px 6px #000;
+        border-radius: 5px;
+    }
+    #idbusqueda{
+        position: relative;
+        box-shadow: -2px 3px 0 #222, -4px 6px #000;
+    
+        top: -60vw;
+        
+    }
+    
+    .btn:active {
+        box-shadow: inset -4px 4px 0 #222;
+    }
+}
